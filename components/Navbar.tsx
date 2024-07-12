@@ -2,6 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
+    <div>
     <nav className="bg-black p-4">
       <ul className="flex space-x-4">
         <li><a href="#" className="text-white hover:text-gold">Home</a></li>
@@ -10,6 +11,7 @@ const Navbar = () => {
         <li><a href="#" className="text-white hover:text-gold">News</a></li>
       </ul>
     </nav>
+    </div>
   );
 };
 
